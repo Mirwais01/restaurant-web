@@ -95,14 +95,14 @@
 /* slider styls */
 
 .carousel-item {
-  margin-top: 70px;
-  height: 37rem !important;
-  background-color: #838f93 !important;
+  margin-top: 10px;
+  height: 41rem !important;
+  background-color: #57595a !important;
   position: relative !important;
 }
 .carousel-item-small {
   height: 25rem !important;
-  background-color: #838f93 !important;
+  background-color: #57595a !important;
   position: relative !important;
 }
 .carousel-container {
@@ -110,7 +110,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 .overlay-image {
   position: absolute;
@@ -124,3 +124,22 @@
 }
 
 /*  */
+
+.get-started {
+  all: unset;
+  width: 220px;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ffbe33;
+  transition: all 0.3s;
+  border-radius: 10px;
+  padding-block: 10px;
+}
+.get-started:hover {
+  background-color: #e69c00;
+}
+.get-started::after {
+  content: "\00276F";
+  transform: rotate(180deg) !important;
+}
