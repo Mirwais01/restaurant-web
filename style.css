@@ -91,3 +91,36 @@
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+
+/* slider styls */
+
+.carousel-item {
+  margin-top: 70px;
+  height: 37rem !important;
+  background-color: #838f93 !important;
+  position: relative !important;
+}
+.carousel-item-small {
+  height: 25rem !important;
+  background-color: #838f93 !important;
+  position: relative !important;
+}
+.carousel-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 40px;
+}
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-position: center !important;
+  background-size: cover !important;
+  opacity: 0.6;
+}
+
+/*  */
