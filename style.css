@@ -95,8 +95,8 @@
 /* slider styls */
 
 .carousel-item {
-  margin-top: 10px;
-  height: 41rem !important;
+  margin-top: 50px;
+  height: 42rem !important;
   background-color: #57595a !important;
   position: relative !important;
 }
@@ -107,10 +107,10 @@
 }
 .carousel-container {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 60px;
+  left: 40px;
   right: 0;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 .overlay-image {
   position: absolute;
