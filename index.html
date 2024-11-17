@@ -15,16 +15,17 @@
     <title>Restaurant web</title>
   </head>
   <body>
-    <!-- heading section  -->
     <section class="header">
       <!-- navbar  -->
       <div
-        class="navbar fixed-top navbar-expand-lg bg-black text-white py-3"
+        class="navbar fixed-top navbar-expand-lg bg-myBlack text-white py-3"
         id="navbar-shadow"
       >
         <div class="container px-3 py-2 py-lg-1">
           <!-- logo -->
-          <a href="#" class="navbar-brand text-white">LOGO</a>
+          <a href="#" class="navbar-brand text-white font-family fs-4 fw-bold"
+            >Burger</a
+          >
 
           <!-- expand button  -->
           <button
@@ -95,8 +96,9 @@
     </section>
     <!-- end of heading  -->
 
+    <!-- slider section  -->
     <section class="first-p pb-5 mb-5 pt-2">
-      <!-- سلایدر  -->
+      <!-- slider  -->
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="list-unstyled carousel-indicators">
           <li
@@ -115,7 +117,7 @@
               style="background-image: url(images/Slider-1.jpg)"
             ></div>
             <div class="container carousel-container">
-              <h1>Restaurant</h1>
+              <h1 class="font-family">Restaurant</h1>
               <p class="mt-4 mb-4 fw-bold">Welcome to 50 50</p>
               <a href="#section2" class="get-started">Start...</a>
             </div>
@@ -126,7 +128,7 @@
               style="background-image: url(images/Slider-2.jpg)"
             ></div>
             <div class="container carousel-container">
-              <h1>Restaurant</h1>
+              <h1 class="font-family">Restaurant</h1>
               <p class="mt-4 mb-4 fw-bold">Welcome to 50 50</p>
               <a href="#section2" class="get-started">Start...</a>
             </div>
@@ -137,7 +139,7 @@
               style="background-image: url(images/Slider-3.jpg)"
             ></div>
             <div class="container carousel-container">
-              <h1>Restaurant</h1>
+              <h1 class="font-family">Restaurant</h1>
               <p class="mt-4 mb-4 fw-bold">Welcome to 50 50</p>
               <a href="#section2" class="get-started">Start...</a>
             </div>
@@ -160,6 +162,60 @@
           <span class="sr-only"></span>
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </a>
+      </div>
+    </section>
+    <!-- end of slider section  -->
+
+    <!-- section of discount food  -->
+    <section>
+      <div class="container">
+        <div
+          class="row justify-content-center justify-content-lg-between mx-lg-3 mx-2 mx-lg-0 pb-5"
+        >
+          <div
+            class="col-sm col-lg-5 gap-2 rounded-3 mb-4 mb-lg-0 p-4 bg-discount d-flex flex-column flex-lg-row align-items-lg-center text-center"
+          >
+            <div>
+              <img class="discount-image" src="images/pizza.webp" alt="" />
+            </div>
+            <div>
+              <h2 class="text-white font-family">Cheiken Pizza</h2>
+              <p class="text-white font-family">
+                <span class="fs-3"> 20% </span> <span>Off</span>
+              </p>
+              <div
+                class="py-2 d-inline-block px-4 bg-yellow bg-yellowHover rounded-pill"
+              >
+                <img class="icon-arrows" src="../images/buy.png" alt="" />
+                <a href="" class="text-decoration-none text-white"
+                  >Order Online</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-sm col-lg-5 gap-2 rounded-3 mb-4 mb-lg-0 p-4 bg-discount d-flex flex-column flex-lg-row align-items-lg-center text-center"
+          >
+            <div>
+              <img class="discount-image" src="images/Burger.webp" alt="" />
+            </div>
+            <div>
+              <h2 class="text-white font-family">Burger</h2>
+              <p class="text-white font-family">
+                <span class="fs-3"> 20% </span> <span>Off</span>
+              </p>
+              <div
+                class="py-2 d-inline-block px-4 bg-yellow bg-yellowHover rounded-pill"
+              >
+                <img class="icon-arrows" src="../images/buy.png" alt="" />
+                <a href="" class="text-decoration-none text-white"
+                  >Order Online</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
