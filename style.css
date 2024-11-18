@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Nunito" !important;
+}
 
 .font-family {
-  font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script";
 }
 
 /* nav bar css  */
@@ -17,6 +22,9 @@
 }
 .bg-yellow {
   background-color: #ffbe33;
+}
+.text-yellow {
+  color: #ffae00;
 }
 .bg-yellowHover:hover {
   background-color: #e69c00;
@@ -163,4 +171,24 @@
   height: 175px;
   border-radius: 50%;
   border: 6px solid #dcad48;
+}
+.discount-image:hover {
+  transition: all 0.2s;
+  scale: 1.09;
+}
+
+/* menu food secton  */
+.menufood-header::after {
+  content: "_";
+  width: 45px;
+  height: 12px;
+}
+.menufood-header::before {
+  content: "_";
+  width: 45px;
+  height: 12px;
+}
+
+.nav-pills .nav-item .active {
+  border-bottom: 2px solid #ffae00;
 }
