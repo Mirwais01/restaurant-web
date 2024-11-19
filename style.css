@@ -192,3 +192,7 @@ body {
 .nav-pills .nav-item .active {
   border-bottom: 2px solid #ffae00;
 }
+
+.bg-lightBlack {
+  background-color: #222831;
+}
