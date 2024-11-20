@@ -36,9 +36,7 @@ body {
 }
 /* Icon of humberger menu */
 
-.animated-icon1,
-.animated-icon2,
-.animated-icon3 {
+.animated-icon1 {
   width: 30px;
   height: 20px;
   position: relative;
@@ -195,4 +193,58 @@ body {
 
 .bg-lightBlack {
   background-color: #222831;
+}
+
+/* //////////////////// */
+
+.form-container input {
+  padding-block: 14px !important;
+  border: 1px solid #222831;
+}
+.form-container input:focus {
+  outline: 2px solid #222831;
+  box-shadow: 0 0 5px #222831;
+}
+
+.select-container label {
+  font-size: 1rem;
+  color: #222831;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.select-container select {
+  width: 100%;
+  padding-block: 14px !important;
+  padding-inline: 10px;
+  border: 2px solid #828385;
+  border-radius: 10px;
+  background: #fff;
+  color: #222831;
+  font-size: 1rem;
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7'%3E%3Cpath fill='%23888888' d='M6 7L0 0h12z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px 7px;
+}
+
+.select-container select:hover {
+  border-color: #222831;
+}
+
+.select-container option {
+  font-size: 1rem;
+  color: #222831;
+}
+/* //////// map  */
+.map-container {
+  min-height: 400px;
+}
+
+@media (min-width: 992px) {
+  .map-container {
+    height: 100%;
+  }
 }
