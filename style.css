@@ -30,12 +30,9 @@ body {
   background-color: #e69c00;
 }
 .icon-arrows {
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   cursor: pointer;
-}
-.ms-lg-6 {
-  margin-left: 85px;
 }
 /* Icon of humberger menu */
 
