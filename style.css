@@ -21,10 +21,10 @@ body {
   color: #ffbe33 !important;
 }
 .bg-yellow {
-  background-color: #ffbe33;
+  background-color: #fea116;
 }
 .text-yellow {
-  color: #ffae00;
+  color: #fea116;
 }
 .bg-yellowHover:hover {
   background-color: #e69c00;
@@ -146,7 +146,7 @@ body {
   padding: 20px;
   font-size: 18px;
   text-align: center;
-  background-color: #ffbe33;
+  background-color: #fea116;
   transition: all 0.3s;
   border-radius: 10px;
   padding-block: 10px;
@@ -168,7 +168,7 @@ body {
   width: 175px;
   height: 175px;
   border-radius: 50%;
-  border: 6px solid #dcad48;
+  border: 6px solid #fea116;
 }
 .discount-image:hover {
   transition: all 0.2s;
@@ -176,19 +176,21 @@ body {
 }
 
 /* menu food secton  */
-.menufood-header::after {
+.menufood-header::after,
+.testemonial-head::after {
   content: "_";
   width: 45px;
   height: 12px;
 }
-.menufood-header::before {
+.menufood-header::before,
+.testemonial-head::before {
   content: "_";
   width: 45px;
   height: 12px;
 }
 
 .nav-pills .nav-item .active {
-  border-bottom: 2px solid #ffae00;
+  border-bottom: 2px solid #fea116;
 }
 
 .bg-lightBlack {
@@ -247,4 +249,48 @@ body {
   .map-container {
     height: 100%;
   }
+}
+
+/* //// /////// footer  */
+
+.footer_Contact_links {
+  margin-top: 20px;
+}
+.footer_Contact_links a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+}
+.footer_Contact_links a:hover {
+  color: #fea116;
+}
+
+.footer_social {
+  display: flex;
+  justify-content: center;
+}
+.footer_social a {
+  text-decoration: none;
+  color: #222831 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 100%;
+  margin: 0 3px;
+}
+.footer_social a:hover {
+  text-decoration: none;
+  color: #fea116;
+}
+.footer_social a i:hover {
+  color: #fea116 !important;
+}
+
+.footer-info {
+  text-align: center;
 }
