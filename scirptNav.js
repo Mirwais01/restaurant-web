@@ -34,3 +34,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// scroll to top button functionality
+const toTop = document.querySelector("#to-top");
+window.onscroll = function () {
+  scrollFunction();
+};
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    toTop.style.display = "block";
+  } else {
+    toTop.style.display = "none";
+  }
+}
+toTop.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});

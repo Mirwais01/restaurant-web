@@ -8,8 +8,15 @@ body {
 .font-family {
   font-family: "Dancing Script";
 }
-
+.text-justify {
+  text-align: justify;
+}
 /* nav bar css  */
+.logo-img {
+  width: 80px;
+  height: 80px;
+}
+
 .nav-link.active {
   color: #ffbe33 !important;
 }
@@ -199,6 +206,14 @@ body {
 
 /* //////////////////// */
 
+/* logo img styles  */
+.logoImg-aboutUs {
+  width: 170px;
+  height: 170px;
+}
+
+/* form  */
+
 .form-container input {
   padding-block: 14px !important;
   border: 1px solid #222831;
@@ -333,3 +348,33 @@ body {
   opacity: 0;
   transition: all 0.3s ease-out;
 }
+
+/* ///// */
+
+/* to top  */
+#to-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  outline: none;
+  background-color: #fea116;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  opacity: 0.8;
+}
+.to-top-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  margin-right: 15px;
+  margin-top: 1px;
+  margin-bottom: 8px;
+}
+/* ============== */
